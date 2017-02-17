@@ -7,13 +7,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <base href="/">
-    <title></title>
-    <meta name="description" content="">
+    <title>Wavez 2017 | IIT Madras Ocean Engineering Department Annual Techno-Cultural Fest</title>
+    <meta name="description" content="Wavez is the annual techno-cultural festival of the Department of Ocean Engineering at IIT Madras. It involves both Technical and Cultural events and is aimed at increasing the intra-department and inter-department interactions. It is attended by roughly 500 students of IIT Madras and many more across chennai. It is considered as knowledge hub of Naval architecture and ocean engineering field. The festival provides a solid platform for people to learn about our work and develop an interest, also a place for those in our department to pit their skills and knowledge against each other.">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(client) app/vendor.css -->
       <!-- bower:css -->
       <link rel="stylesheet" href="bower_components/materialize/bin/materialize.css" />
+      <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
       <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,client}) app/app.css -->
@@ -22,7 +23,7 @@
       <!-- endinjector -->
     <!-- endbuild -->
   </head>
-  <body ng-app="wavez2017App">
+  <body ng-app="wavez2017App" class="blue lighten-5">
     <!--[if lt IE 7]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -30,7 +31,6 @@
     <!-- Add your site or application content here -->
     <navbar></navbar>
     <div ui-view=""></div>
-    <footer></footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
@@ -68,16 +68,26 @@
       <script src="app/admin/admin.module.js"></script>
       <script src="components/auth/auth.module.js"></script>
       <script src="components/util/util.module.js"></script>
-      <script src="components/auth/interceptor.service.js"></script>
+      <script src="app/rcboats/rcboats.js"></script>
+      <script src="app/account/settings/settings.controller.js"></script>
+      <script src="app/account/signup/signup.controller.js"></script>
       <script src="app/admin/admin.controller.js"></script>
-      <script src="app/account/account.js"></script>
+      <script src="app/about/about.controller.js"></script>
       <script src="app/admin/admin.router.js"></script>
       <script src="app/app.constant.js"></script>
+      <script src="app/contact/contact.controller.js"></script>
+      <script src="app/contact/contact.js"></script>
+      <script src="app/events/events.controller.js"></script>
+      <script src="app/events/events.js"></script>
       <script src="app/main/main.controller.js"></script>
       <script src="app/main/main.js"></script>
-      <script src="app/account/settings/settings.controller.js"></script>
+      <script src="app/rcboats/rcboats.controller.js"></script>
+      <script src="app/about/about.js"></script>
+      <script src="app/roboceana/roboceana.controller.js"></script>
+      <script src="app/roboceana/roboceana.js"></script>
+      <script src="app/account/account.js"></script>
       <script src="components/auth/auth.service.js"></script>
-      <script src="app/account/login/login.controller.js"></script>
+      <script src="components/auth/interceptor.service.js"></script>
       <script src="components/auth/router.decorator.js"></script>
       <script src="components/auth/user.service.js"></script>
       <script src="components/footer/footer.directive.js"></script>
@@ -87,7 +97,7 @@
       <script src="components/oauth-buttons/oauth-buttons.controller.js"></script>
       <script src="components/oauth-buttons/oauth-buttons.directive.js"></script>
       <script src="components/socket/socket.service.js"></script>
-      <script src="app/account/signup/signup.controller.js"></script>
+      <script src="app/account/login/login.controller.js"></script>
       <script src="components/util/util.service.js"></script>
       <!-- endinjector -->
     <!-- endbuild -->
