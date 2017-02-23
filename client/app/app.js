@@ -7,4 +7,7 @@ angular.module('wavez2017App', ['wavez2017App.auth', 'wavez2017App.admin', 'wave
     $urlRouterProvider.otherwise('/');
 
     $locationProvider.html5Mode(true);
+  })
+  .controller('LoadingCtrl', function() {
+  	
   });

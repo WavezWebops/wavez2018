@@ -1,15 +1,15 @@
 'use strict';
 
-describe('Component: QuizComponent', function () {
+describe('Component: EventComponent', function () {
 
   // load the controller's module
   beforeEach(module('wavez2017App'));
 
-  var QuizComponent;
+  var EventComponent;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($componentController) {
-    QuizComponent = $componentController('quiz', {});
+    EventComponent = $componentController('event', {});
   }));
 
   it('should ...', function () {

@@ -16,26 +16,19 @@ class NavbarController {
     	'url': 'http://www.doe.iitm.ac.in/'
     }];
     this.events = [{
-    	'name': 'RoboOceana',
-    	'state': 'roboceana'
+    	'name': 'RoboOceana'
     }, {
-    	'name': 'R C Boats',
-    	'state': 'rcboats'
+    	'name': 'R C Boats'
     }, {
-    	'name': 'AWC',
-    	'state': 'awc'
+    	'name': 'AWC'
     }, {
-    	'name': 'Treasure Hunt',
-    	'state': 'treasure'
+    	'name': 'Treasure Hunt'
     }, {
-    	'name': 'Kryptx',
-    	'state': 'kryptx'
+    	'name': 'Kryptx'
     }, {
-    	'name': 'Free Style Solo',
-    	'state': 'fss'
+    	'name': 'Free Style Solo'
     }, {
-    	'name': 'Wavez Quiz',
-    	'state': 'quiz'
+    	'name': 'Wavez Quiz'
     }];
   }
 

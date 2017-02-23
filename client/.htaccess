@@ -415,6 +415,8 @@ AddDefaultCharset utf-8
 #    Header set Cache-Control "no-transform"
 # </IfModule>
 
+Header set Cache-Control "max-age=18000, public"
+
 # ------------------------------------------------------------------------------
 # | ETag removal                                                               |
 # ------------------------------------------------------------------------------

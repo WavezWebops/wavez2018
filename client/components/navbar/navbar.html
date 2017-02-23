@@ -1,4 +1,4 @@
-<div class="navbar-fixed" ng-controller="NavbarController">
+<div class="navbar-fixed animated slideInDown" style="position: fixed;width: 100%;" ng-controller="NavbarController">
   <nav>
     <div class="nav-wrapper blue darken-4" style="text-align: center;">
       <ul class="left">
@@ -15,19 +15,19 @@
   <li style="margin-bottom: 73px;"><a href="/" style="padding: 0px;"><img src="https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_200/v1487735026/Wavez2017/logo1.png" width="100%"></a></li>
   <li><div class="divider"></div></li>
   <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="main">Home</a></li>
-  <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="about">About</a></li>
   <li ui-sref-active="active" class="no-padding">
     <ul class="collapsible collapsible-accordion">
       <li ui-sref-active="active"><a class="collapsible-header waves-effect main_nav_button" ui-sref="events">Events</a>
         <div class="collapsible-body">
           <ul>
-            <li ui-sref-active="active" ng-repeat="e in nav.events"><a class="sub_nav_button" ui-sref="{{e.state}}">{{e.name}}</a></li>
+            <li ui-sref-active="active" ng-repeat="e in nav.events"><a class="sub_nav_button" ui-sref="event({id: $index})">{{e.name}}</a></li>
           </ul>
         </div>
       </li>
     </ul>
   </li>
   <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="contact">Contact Us</a></li>
+  <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="about">About</a></li>
 </ul>
 <script type="text/javascript">
   $(".button-collapse").sideNav({

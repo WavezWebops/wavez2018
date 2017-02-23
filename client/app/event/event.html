@@ -1,6 +1,6 @@
 <div class="content_space">
 	<h1 class="main_heading">
-		Treasure Hunt
+		{{eventCtrl.event.name}}
 	</h1>
 	<div class="whitebg animated slideInUp card-panel row">
 		<div class="col s6 m6 l3">
@@ -8,7 +8,7 @@
 		</div>
 		<div class="col s12 m12 l9 blue-grey-text text-darken-4 left_align event_caption">
 			<p>
-				This  treasure-hunt set-up is a challenging event with lots of fun and entertainment .You will be given clues from which you find hiding places, and how quick you think your team members will be at catching on.And price money will be awarded for those who won the first, second, third places. Its about a hour play with 10 clues to crack. You are guaranteed to move (a lot), and giggle (a lot!), on a search for clues in a treasure hunt game. Come have fun and enjoy the events.
+				{{eventCtrl.event.writeup}}
 			</p>
 		</div>
 	</div>
@@ -18,14 +18,9 @@
 		</div>
 		<div class="col s12 m12 l9 blue-grey-text text-darken-4 left_align event_caption">
 			<ul>
-				<li>
+				<li ng-repeat="r in eventCtrl.event.rules">
 					<p>
-						✓ A team of size 3-6 members can participate.
-					</p>
-				</li>
-				<li>
-					<p>
-						✓ On-Spot Registration.
+						✓ <span ng-bind-html="r"></span>
 					</p>
 				</li>
 			</ul>
@@ -37,7 +32,7 @@
 		</div>
 		<div class="col s12 m12 l9 blue-grey-text text-darken-4 left_align event_caption">
 			<p>
-				Coming Soon.
+				{{eventCtrl.event.prize}}
 			</p>
 		</div>
 	</div>
@@ -46,10 +41,10 @@
 			<img src="https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_170/v1487735026/Wavez2017/contact.png" width="170px">
 		</div>
 		<div class="col s12 m12 l9 blue-grey-text text-darken-4 left_align event_caption">
-			<p>
-				Tony Anoop
+			<p ng-repeat="c in eventCtrl.event.contacts">
+				{{c.name}}
 				<br>
-				+91 979 148 3921, events@wavez.co.in
+				{{c.mobile}}, {{c.email}}
 				<br>
 				<br>
 			</p>

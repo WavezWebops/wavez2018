@@ -103,15 +103,9 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 /* inject:scss */
 @import 'about/about.scss';
 @import 'admin/admin.scss';
-@import 'awc/awc.scss';
 @import 'contact/contact.scss';
+@import 'event/event.scss';
 @import 'events/events.scss';
-@import 'fss/fss.scss';
-@import 'kryptx/kryptx.scss';
 @import 'main/main.scss';
-@import 'quiz/quiz.scss';
-@import 'rcboats/rcboats.scss';
-@import 'roboceana/roboceana.scss';
-@import 'treasure/treasure.scss';
 @import '../components/oauth-buttons/oauth-buttons.scss';
 /* endinject */
