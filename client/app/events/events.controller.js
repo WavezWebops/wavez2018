@@ -26,14 +26,23 @@ class EventsComponent {
     	'name': 'Wavez Quiz',
     	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1487735141/Wavez2017/events/quiz.png'
     }, {
-        'name': 'Reasearch Expo',
-        'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488220721/Wavez2017/events/research.png'
-    }, {
         'name': 'IDP',
         'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488220720/Wavez2017/events/idp.png'
     }, {
         'name': 'Splash',
         'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488220721/Wavez2017/events/splash.png'
+    }, {
+        'name': 'Daily Events',
+        'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488287164/Wavez2017/events/dailyevents.png'
+    }, {
+        'name': 'Game Drome',
+        'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488287166/Wavez2017/events/gamedrome.png'
+    }, {
+        'name': 'Open House',
+        'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488287165/Wavez2017/events/openhouse.png'
+    }, {
+        'name': 'ProjectX',
+        'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488287166/Wavez2017/events/projectx.png'
     }];
   }
 }

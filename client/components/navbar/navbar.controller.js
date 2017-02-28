@@ -30,11 +30,17 @@ class NavbarController {
     }, {
     	'name': 'Wavez Quiz'
     }, {
-        'name': 'Research Expo'
-    }, {
         'name': 'IDP'
     }, {
         'name': 'Splash'
+    }, {
+        'name': 'Daily Events'
+    }, {
+        'name': 'Game Drome'
+    }, {
+        'name': 'Open House'
+    }, {
+        'name': 'ProjectX'
     }];
   }
 
