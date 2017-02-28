@@ -2,7 +2,7 @@
 	<h1 class="main_heading">
 		{{eventCtrl.event.name}}
 	</h1>
-	<div class="whitebg animated slideInUp card-panel row">
+	<div class="whitebg animated slideInUp card-panel row" ng-hide="eventCtrl.event.writeup==null">
 		<div class="col s6 m6 l3">
 			<img src="https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_170/v1487735026/Wavez2017/megaphone.png" width="170px">
 		</div>
@@ -12,7 +12,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="whitebg animated slideInUp card-panel row">
+	<div class="whitebg animated slideInUp card-panel row" ng-hide="eventCtrl.event.rules==null">
 		<div class="col s6 m6 l3">
 			<img src="https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_170/v1487735028/Wavez2017/rules.png" width="170px">
 		</div>
@@ -26,7 +26,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="whitebg animated slideInUp card-panel row">
+	<div class="whitebg animated slideInUp card-panel row" ng-hide="eventCtrl.event.prize==null">
 		<div class="col s6 m6 l3">
 			<img src="https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_170/v1487735028/Wavez2017/prize.png" width="170px">
 		</div>

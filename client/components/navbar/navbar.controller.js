@@ -29,6 +29,12 @@ class NavbarController {
     	'name': 'Free Style Solo'
     }, {
     	'name': 'Wavez Quiz'
+    }, {
+        'name': 'Research Expo'
+    }, {
+        'name': 'IDP'
+    }, {
+        'name': 'Splash'
     }];
   }
 

@@ -9,7 +9,7 @@ class ContactComponent {
     	'department': 'Finance',
     	'mobile': '+91 994 012 3592',
     	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_250/v1487735099/Wavez2017/core/fin.jpg',
-    	'mail': 'contact@wavez.co.in'
+    	'mail': 'finance@wavez.co.in'
     }, {
     	'name': 'Shanthi',
     	'department': 'QMS',
