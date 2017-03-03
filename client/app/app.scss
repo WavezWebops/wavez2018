@@ -14,6 +14,10 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
   padding: 0.2em 0;
 }
 
+.padding20 {
+  padding: 20px;
+}
+
 .content_space {
 	margin-left: 200px;
   text-align: center;
@@ -105,6 +109,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 @import 'contact/contact.scss';
 @import 'event/event.scss';
 @import 'events/events.scss';
+@import 'kryptx/kryptx.scss';
 @import 'main/main.scss';
 @import '../components/oauth-buttons/oauth-buttons.scss';
 /* endinject */

@@ -28,6 +28,12 @@ class ContactComponent {
     	'mobile': '+91 897 817 8382',
     	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_250/v1487735100/Wavez2017/core/sports.jpg',
     	'mail': 'contact@wavez.co.in'
+    }, {
+        'name': 'Karthik',
+        'department': 'FR',
+        'mobile': '+91 978 908 8338',
+        'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_250/v1488531573/Wavez2017/core/fr.jpg',
+        'mail': 'contact@wavez.co.in'
     }];
   }
 }

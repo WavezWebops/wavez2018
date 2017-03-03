@@ -1,16 +1,17 @@
 /**
  * Using Rails-like standard naming convention for endpoints.
- * GET     /api/things              ->  index
- * POST    /api/things              ->  create
- * GET     /api/things/:id          ->  show
- * PUT     /api/things/:id          ->  update
- * DELETE  /api/things/:id          ->  destroy
+ * GET     /api/registrations              ->  index
+ * POST    /api/registrations              ->  create
+ * GET     /api/registrations/:id          ->  show
+ * PUT     /api/registrations/:id          ->  update
+ * DELETE  /api/registrations/:id          ->  destroy
  */
 
 'use strict';
 
 import _ from 'lodash';
-import Thing from './thing.model';
+import Registration from './registration.model';
+import User from '../user/user.model';
 
 function respondWithResult(res, statusCode) {
   statusCode = statusCode || 200;
@@ -62,43 +63,48 @@ function handleError(res, statusCode) {
   };
 }
 
-// Gets a list of Things
+// Gets a list of Registrations
 export function index(req, res) {
-  return Thing.find().exec()
+  return Registration.find().exec()
     .then(respondWithResult(res))
     .catch(handleError(res));
 }
 
-// Gets a single Thing from the DB
+// Gets a single Registration from the DB
 export function show(req, res) {
-  return Thing.findById(req.params.id).exec()
+  return Registration.findById(req.params.id).exec()
     .then(handleEntityNotFound(res))
     .then(respondWithResult(res))
     .catch(handleError(res));
 }
 
-// Creates a new Thing in the DB
+// Creates a new Registration in the DB
 export function create(req, res) {
-  return Thing.create(req.body)
+  User.findById(req.user.id).exec()
+    .then(user => {
+      user.events.push(req.body.event);
+      user.save();
+    });
+  return Registration.create({event: req.body.event, userid: req.user.id})
     .then(respondWithResult(res, 201))
     .catch(handleError(res));
 }
 
-// Updates an existing Thing in the DB
+// Updates an existing Registration in the DB
 export function update(req, res) {
   if (req.body._id) {
     delete req.body._id;
   }
-  return Thing.findById(req.params.id).exec()
+  return Registration.findById(req.params.id).exec()
     .then(handleEntityNotFound(res))
     .then(saveUpdates(req.body))
     .then(respondWithResult(res))
     .catch(handleError(res));
 }
 
-// Deletes a Thing from the DB
+// Deletes a Registration from the DB
 export function destroy(req, res) {
-  return Thing.findById(req.params.id).exec()
+  return Registration.findById(req.params.id).exec()
     .then(handleEntityNotFound(res))
     .then(removeEntity(res))
     .catch(handleError(res));

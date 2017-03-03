@@ -3,40 +3,40 @@
 var app = require('../..');
 import request from 'supertest';
 
-var newThing;
+var newKryptx;
 
-describe('Thing API:', function() {
+describe('Kryptx API:', function() {
 
-  describe('GET /api/things', function() {
-    var things;
+  describe('GET /api/kryptxs', function() {
+    var kryptxs;
 
     beforeEach(function(done) {
       request(app)
-        .get('/api/things')
+        .get('/api/kryptxs')
         .expect(200)
         .expect('Content-Type', /json/)
         .end((err, res) => {
           if (err) {
             return done(err);
           }
-          things = res.body;
+          kryptxs = res.body;
           done();
         });
     });
 
     it('should respond with JSON array', function() {
-      expect(things).to.be.instanceOf(Array);
+      expect(kryptxs).to.be.instanceOf(Array);
     });
 
   });
 
-  describe('POST /api/things', function() {
+  describe('POST /api/kryptxs', function() {
     beforeEach(function(done) {
       request(app)
-        .post('/api/things')
+        .post('/api/kryptxs')
         .send({
-          name: 'New Thing',
-          info: 'This is the brand new thing!!!'
+          name: 'New Kryptx',
+          info: 'This is the brand new kryptx!!!'
         })
         .expect(201)
         .expect('Content-Type', /json/)
@@ -44,55 +44,55 @@ describe('Thing API:', function() {
           if (err) {
             return done(err);
           }
-          newThing = res.body;
+          newKryptx = res.body;
           done();
         });
     });
 
-    it('should respond with the newly created thing', function() {
-      expect(newThing.name).to.equal('New Thing');
-      expect(newThing.info).to.equal('This is the brand new thing!!!');
+    it('should respond with the newly created kryptx', function() {
+      expect(newKryptx.name).to.equal('New Kryptx');
+      expect(newKryptx.info).to.equal('This is the brand new kryptx!!!');
     });
 
   });
 
-  describe('GET /api/things/:id', function() {
-    var thing;
+  describe('GET /api/kryptxs/:id', function() {
+    var kryptx;
 
     beforeEach(function(done) {
       request(app)
-        .get('/api/things/' + newThing._id)
+        .get('/api/kryptxs/' + newKryptx._id)
         .expect(200)
         .expect('Content-Type', /json/)
         .end((err, res) => {
           if (err) {
             return done(err);
           }
-          thing = res.body;
+          kryptx = res.body;
           done();
         });
     });
 
     afterEach(function() {
-      thing = {};
+      kryptx = {};
     });
 
-    it('should respond with the requested thing', function() {
-      expect(thing.name).to.equal('New Thing');
-      expect(thing.info).to.equal('This is the brand new thing!!!');
+    it('should respond with the requested kryptx', function() {
+      expect(kryptx.name).to.equal('New Kryptx');
+      expect(kryptx.info).to.equal('This is the brand new kryptx!!!');
     });
 
   });
 
-  describe('PUT /api/things/:id', function() {
-    var updatedThing;
+  describe('PUT /api/kryptxs/:id', function() {
+    var updatedKryptx;
 
     beforeEach(function(done) {
       request(app)
-        .put('/api/things/' + newThing._id)
+        .put('/api/kryptxs/' + newKryptx._id)
         .send({
-          name: 'Updated Thing',
-          info: 'This is the updated thing!!!'
+          name: 'Updated Kryptx',
+          info: 'This is the updated kryptx!!!'
         })
         .expect(200)
         .expect('Content-Type', /json/)
@@ -100,27 +100,27 @@ describe('Thing API:', function() {
           if (err) {
             return done(err);
           }
-          updatedThing = res.body;
+          updatedKryptx = res.body;
           done();
         });
     });
 
     afterEach(function() {
-      updatedThing = {};
+      updatedKryptx = {};
     });
 
-    it('should respond with the updated thing', function() {
-      expect(updatedThing.name).to.equal('Updated Thing');
-      expect(updatedThing.info).to.equal('This is the updated thing!!!');
+    it('should respond with the updated kryptx', function() {
+      expect(updatedKryptx.name).to.equal('Updated Kryptx');
+      expect(updatedKryptx.info).to.equal('This is the updated kryptx!!!');
     });
 
   });
 
-  describe('DELETE /api/things/:id', function() {
+  describe('DELETE /api/kryptxs/:id', function() {
 
     it('should respond with 204 on successful removal', function(done) {
       request(app)
-        .delete('/api/things/' + newThing._id)
+        .delete('/api/kryptxs/' + newKryptx._id)
         .expect(204)
         .end((err, res) => {
           if (err) {
@@ -130,9 +130,9 @@ describe('Thing API:', function() {
         });
     });
 
-    it('should respond with 404 when thing does not exist', function(done) {
+    it('should respond with 404 when kryptx does not exist', function(done) {
       request(app)
-        .delete('/api/things/' + newThing._id)
+        .delete('/api/kryptxs/' + newKryptx._id)
         .expect(404)
         .end((err, res) => {
           if (err) {

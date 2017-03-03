@@ -17,6 +17,8 @@ function onConnect(socket) {
   });
 
   // Insert sockets below
+  require('../api/kryptx/kryptx.socket').register(socket);
+  require('../api/registration/registration.socket').register(socket);
 
 }
 

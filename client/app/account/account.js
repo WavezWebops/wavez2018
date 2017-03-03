@@ -1,4 +1,4 @@
-/*'use strict';
+'use strict';
 
 angular.module('wavez2017App')
   .config(function($stateProvider) {
@@ -24,8 +24,8 @@ angular.module('wavez2017App')
         controller: 'SignupController',
         controllerAs: 'vm'
       })
-      .state('settings', {
-        url: '/settings',
+      .state('dashboard', {
+        url: '/dashboard',
         templateUrl: 'app/account/settings/settings.html',
         controller: 'SettingsController',
         controllerAs: 'vm',
@@ -38,4 +38,4 @@ angular.module('wavez2017App')
         next.referrer = current.name;
       }
     });
-  });*/
+  });

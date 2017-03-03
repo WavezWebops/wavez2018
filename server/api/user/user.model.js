@@ -9,6 +9,8 @@ const authTypes = ['github', 'twitter', 'facebook', 'google'];
 
 var UserSchema = new Schema({
   name: String,
+  college: String,
+  mobile: String,
   email: {
     type: String,
     lowercase: true,
@@ -20,6 +22,8 @@ var UserSchema = new Schema({
       }
     }
   },
+  events: [String],
+  workshops: [String],
   role: {
     type: String,
     default: 'user'

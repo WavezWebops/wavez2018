@@ -41,6 +41,8 @@ class NavbarController {
         'name': 'Open House'
     }, {
         'name': 'ProjectX'
+    }, {
+        'name': 'OTD'
     }];
   }
 

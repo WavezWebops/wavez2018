@@ -10,4 +10,6 @@ angular.module('wavez2017App', ['wavez2017App.auth', 'wavez2017App.admin', 'wave
   })
   .run(function($rootScope) {
   	$rootScope.loading = true;
+  	Materialize.toast('Registrations open !<br>Hurry Up !', 4000, 'rounded');
+    Materialize.toast('Kryptx is on !<br>Login to play !', 4000, 'rounded');
   });

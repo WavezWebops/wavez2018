@@ -43,6 +43,9 @@ class EventsComponent {
     }, {
         'name': 'ProjectX',
         'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488287166/Wavez2017/events/projectx.png'
+    }, {
+        'name': 'OTD',
+        'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488342663/Wavez2017/events/otd.png'
     }];
   }
 }
