@@ -61,6 +61,19 @@ class SettingsController {
       instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
       active: false
     }];
+    this.workshops = [{
+      id: 'starccm',
+      name: 'Star CCM+',
+      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488603401/Wavez2017/workshops/starccm.png',
+      instructions: ['Our team will contact you upon confirmation.', 'Registration fee &#8377;300.'],
+      active: false
+    }, {
+      id: 'roboceanaw',
+      name: 'Roboceana',
+      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488603401/Wavez2017/workshops/roboceana.png',
+      instructions: ['Our team will contact you upon confirmation.', 'Registration fee &#8377;2000.'],
+      active: false
+    }];
     this.User = this.getCurrentUser();
     this.Init();
     
@@ -72,7 +85,7 @@ class SettingsController {
     })
     .then(response => {
       this.User.events.push(event.id);
-      Materialize.toast('Registration Successful!', 2000);
+      Materialize.toast('Registration Requested!', 2000);
       this.Init();
     })
     .catch(err => {
@@ -86,6 +99,10 @@ class SettingsController {
       for(var j=0; j<this.events.length; ++j) {
         if(this.User.events[i]==this.events[j].id) 
           this.events[j].active = true;
+      }
+      for(var k=0; k<this.workshops.length; ++k) {
+        if(this.User.events[i]==this.workshops[k].id) 
+          this.workshops[k].active = true;
       }
     }
   }

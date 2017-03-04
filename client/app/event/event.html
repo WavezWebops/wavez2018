@@ -7,7 +7,9 @@
 		<a class="waves-effect waves-light btn blue darken-4" ng-hide="eventCtrl.event.writeup==null" ng-click="eventCtrl.index=0">Home</a>
 		<a class="waves-effect waves-light btn blue darken-4" ng-hide="eventCtrl.event.rules==null" ng-click="eventCtrl.index=1">Format</a>
 		<a class="waves-effect waves-light btn blue darken-4" ng-hide="eventCtrl.event.prize==null" ng-click="eventCtrl.index=2">Prize</a>
-		<a class="waves-effect waves-light btn blue darken-4" ng-click="eventCtrl.index=3">Contact</a>
+		<a class="waves-effect waves-light btn blue darken-4" ui-sref="dashboard" ng-hide="(eventCtrl.event.name=='Daily Events')||(eventCtrl.event.name=='Kryptx')||(eventCtrl.event.name=='Open House')||(eventCtrl.event.name=='Online T-shirt Design')">Register</a>
+		<a class="waves-effect waves-light btn blue darken-4" ui-sref="kryptx" ng-show="eventCtrl.event.name=='Kryptx'">Play</a>
+		<a class="waves-effect waves-light btn blue darken-4" ng-click="eventCtrl.index=3">Contact</a><a class="waves-effect waves-light btn-floating blue darken-4 btn-large" ui-sref="events"><i class="material-icons">clear</i></a>
 	</div>
 	<br>
 	<br>

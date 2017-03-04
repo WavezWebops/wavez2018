@@ -33,6 +33,17 @@
       </li>
     </ul>
   </li>
+  <li ui-sref-active="active" class="no-padding">
+    <ul class="collapsible collapsible-accordion">
+      <li ui-sref-active="active"><a class="collapsible-header waves-effect main_nav_button" ui-sref="workshops">Workshops</a>
+        <div class="collapsible-body">
+          <ul>
+            <li ui-sref-active="active" ng-repeat="w in nav.workshops"><a class="sub_nav_button" ui-sref="workshop({id: $index})">{{w.name}}</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </li>
   <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="contact">Contact Us</a></li>
   <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="about">About</a></li>
 </ul>

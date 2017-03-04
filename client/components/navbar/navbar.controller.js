@@ -44,6 +44,11 @@ class NavbarController {
     }, {
         'name': 'OTD'
     }];
+    this.workshops = [{
+        'name': 'Star CCM+'
+    }, {
+        'name': 'RoboOceana'
+    }];
   }
 
 }
