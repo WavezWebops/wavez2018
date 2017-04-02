@@ -25,6 +25,12 @@ class SettingsController {
       instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
       active: false
     }, {
+      id: 'treasure',
+      name: 'Treasure Hunt',
+      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735144/Wavez2017/events/treasure.png',
+      instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
+      active: false
+    }, {
       id: 'fss',
       name: 'Free Style',
       url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735147/Wavez2017/events/fss.png',
@@ -35,12 +41,6 @@ class SettingsController {
       name: 'Wavez Quiz',
       url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735141/Wavez2017/events/quiz.png',
       instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
-      active: false
-    }, {
-      id: 'idp',
-      name: 'IDP',
-      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488220720/Wavez2017/events/idp.png',
-      instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
       active: false
     }, {
       id: 'splash',
@@ -71,7 +71,7 @@ class SettingsController {
       id: 'roboceanaw',
       name: 'Roboceana',
       url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488603401/Wavez2017/workshops/roboceana.png',
-      instructions: ['Our team will contact you upon confirmation.', 'Registration fee &#8377;2000.'],
+      instructions: ['Our team will contact you upon confirmation.', 'Registration fee &#8377;2000 per team (Kit will be provided).', 'A team can have maximum 5 members.'],
       active: false
     }];
     this.User = this.getCurrentUser();

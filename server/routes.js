@@ -8,6 +8,9 @@ import errors from './components/errors';
 import path from 'path';
 
 export default function(app) {
+
+  app.use(require('prerender-node').set('prerenderToken', 'ijLy4tTCWjntmglguT4T'));
+
   // Insert routes below
   app.use('/api/kryptxs', require('./api/kryptx'));
   app.use('/api/registrations', require('./api/registration'));

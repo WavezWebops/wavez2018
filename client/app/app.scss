@@ -64,14 +64,14 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
   right: 0;
   margin: auto;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
   margin-top: 30px; 
 }
 
 .whitebg {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .left_align {
@@ -109,8 +109,9 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 @import 'contact/contact.scss';
 @import 'event/event.scss';
 @import 'events/events.scss';
-@import 'kryptx/kryptx.scss';
 @import 'main/main.scss';
+@import 'schedule/schedule.scss';
+@import 'sponsors/sponsors.scss';
 @import 'workshop/workshop.scss';
 @import 'workshops/workshops.scss';
 @import '../components/oauth-buttons/oauth-buttons.scss';

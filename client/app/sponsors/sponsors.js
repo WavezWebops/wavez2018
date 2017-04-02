@@ -3,9 +3,8 @@
 angular.module('wavez2017App')
   .config(function ($stateProvider) {
     $stateProvider
-      .state('kryptx', {
-        url: '/kryptx',
-        template: '<kryptx></kryptx>',
-    	authenticate: true
+      .state('sponsors', {
+        url: '/sponsors',
+        template: '<sponsors></sponsors>'
       });
   });

@@ -19,7 +19,7 @@ class WorkshopComponent {
     }, {
     	'name': 'RoboOceana',
     	'writeup': null,
-    	'rules': ['Emphasis on picking and shooting mechanisms.', 'Registrations open.', 'Registration fee &#8377;2000.'],
+    	'rules': ['Emphasis on picking mechanisms.', 'Registrations open.', 'Registration fee &#8377;2000 per team (Kit will be provided).', 'A team can have maximum 5 members.'],
     	'prize': null,
     	'contacts': [{
     		'name': 'Tony Anoop',

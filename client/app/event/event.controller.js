@@ -44,7 +44,7 @@ class EventComponent {
     	'name': 'Treasure Hunt',
     	'writeup': 'This  treasure-hunt set-up is a challenging event with lots of fun and entertainment .You will be given clues from which you find hiding places, and how quick you think your team members will be at catching on.And price money will be awarded for those who won the first, second, third places. Its about a hour play with 10 clues to crack. You are guaranteed to move (a lot), and giggle (a lot!), on a search for clues in a treasure hunt game. Come have fun and enjoy the events.',
     	'rules': ['A team of size 3-6 members can participate.', 'On-Spot Registration.'],
-    	'prize': 'Prize pool 5k',
+    	'prize': 'Prize pool 4k',
     	'contacts': [{
     		'name': 'Tony Anoop',
     		'mobile': '+91 979 148 3921',
@@ -53,7 +53,7 @@ class EventComponent {
     }, {
     	'name': 'Kryptx',
     	'writeup': 'Kryptx is an online event held before the Wavez fest. Try to open your mind with this event. It is a combination of concealed clues, perplexing puzzles and mind boggling mathematics. There are confusing questions and puzzles. You have to answer the question one by one.',
-    	'rules': ['Online Event.', 'The game is afoot.', 'Login to play.'],
+    	'rules': ['Online Event.', 'Event Completed', 'Solutions (<a href="https://res.cloudinary.com/abinthomasonline/image/upload/v1489290103/Wavez2017/pdf/kryptx.pdf" target="_blank">Click Here</a>).'],
     	'prize': 'Prize pool 3.5k',
     	'contacts': [{
     		'name': 'Tony Anoop',
@@ -74,7 +74,7 @@ class EventComponent {
     	'name': 'Wavez Quiz',
     	'writeup': 'Wavez quiz is back with a bang. Topics ranging from current affairs,cinema,sports,etc have been covered. So come along with your friends in groups of 3 to share and gain knowledge. Fun guaranteed. Enthu is the only required condition.Do join us. We\'ll make sure you have a good time.',
     	'rules': ['Registrations open.'],
-    	'prize': 'Prize pool 4k',
+    	'prize': 'Prize pool 3k',
     	'contacts': [{
     		'name': 'Tony Anoop',
     		'mobile': '+91 979 148 3921',
@@ -84,7 +84,7 @@ class EventComponent {
         'name': 'Industry Defined Problem',
         'writeup': 'It is based on solving a problem related to ocean engineering and naval architecture.it has a great platform to show your uniqueness in solving and presenting.it helps you out in understanding in many tings',
         'rules': ['Registrations open.'],
-        'prize': 'Prize pool 3.5k',
+        'prize': 'Prize pool 2.5k',
         'contacts': [{
             'name': 'Tony Anoop',
             'mobile': '+91 979 148 3921',
@@ -94,7 +94,7 @@ class EventComponent {
         'name': 'Splash',
         'writeup': 'Just SPLASH the colours onto paper, let creativity curls the brush not to trash think instantly out of the box,with out any loss transfer your thoughts through your hearts glorify given theme with your team so, this is where you can intensify your day dream colours,WAVEZ 2017 OPEN YOUR IDEAS,HIDE THE MEDIAS!',
         'rules': ['Team must have at least 2 members', 'Time limit 2 hrs', 'No reference is allowed', 'Strict adherence to theme', 'No extra time', 'Materials will be provided and no outside material is allowed ', 'judgement will be decided by CORES', 'Theme will be announced on the day of this event.', 'Registrations open.'],
-        'prize': 'Prize pool 3.5k',
+        'prize': 'Prize pool 2.5k',
         'contacts': [{
             'name': 'Tony Anoop',
             'mobile': '+91 979 148 3921',
@@ -114,7 +114,7 @@ class EventComponent {
         'name': 'Game Drome',
         'writeup': 'We play video games from our childhood, We from iit madras from department of naval architecture and ocean engineering is going to test your gaming skills through conducting a pc game competition to you on our depart fest on 10 to 12 of this march .not only just a competition it is an challenging event with lots of fun and entertainment.   So, dont miss this opportunity, come and participate and win your price money.',
         'rules': ['This will be a knockout tournament and there will be time slots for each match.', 'Each match will be played between 2 teams having 5 members each side.', 'Contestants will have the choice to form their own teams. Those who cannot manage to find a team will be allotted a team.', 'Each game will have 15 rounds with a maximum time limit of 20 minute per game.', 'If the game isn’t finished within 20 minutes then whoever wins the majority rounds within 20 minutes wins the game.', 'If any team fails to come within 5 minutes of their given time slot then they will be disqualified and the other team will automatically progress to the next round.', 'If any team member fails to come within 5 minutes of his team’s given time slot then the team will have to play without him.', 'Registrations open.'],
-        'prize': 'Prize pool 5k',
+        'prize': 'Prize pool 3.5k',
         'contacts': [{
             'name': 'Tony Anoop',
             'mobile': '+91 979 148 3921',
@@ -134,7 +134,7 @@ class EventComponent {
         'name': 'ProjectX',
         'writeup': '\'You cannot discover new oceans if you dont have the courage to lose sight of the shore.\'Yes, we are back with projectx-Wavez 2k17. A new problem statement which is goin to tackle your innovative and creative side. Unleash yourself and be there to experience the fun. Only prerequisite required is \'ENTHU\'. The prize is indeed worth putting a fight for. Don\'t miss out on this one.',
         'rules': ['Registrations open.'],
-        'prize': 'Prize pool 3.5k',
+        'prize': 'Prize pool 2.5k',
         'contacts': [{
             'name': 'Tony Anoop',
             'mobile': '+91 979 148 3921',

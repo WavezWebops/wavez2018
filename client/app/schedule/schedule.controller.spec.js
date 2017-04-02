@@ -1,15 +1,15 @@
 'use strict';
 
-describe('Component: KryptxComponent', function () {
+describe('Component: ScheduleComponent', function () {
 
   // load the controller's module
   beforeEach(module('wavez2017App'));
 
-  var KryptxComponent;
+  var ScheduleComponent;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($componentController) {
-    KryptxComponent = $componentController('kryptx', {});
+    ScheduleComponent = $componentController('schedule', {});
   }));
 
   it('should ...', function () {

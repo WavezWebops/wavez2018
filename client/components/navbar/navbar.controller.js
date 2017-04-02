@@ -30,8 +30,6 @@ class NavbarController {
     }, {
     	'name': 'Wavez Quiz'
     }, {
-        'name': 'IDP'
-    }, {
         'name': 'Splash'
     }, {
         'name': 'Daily Events'
