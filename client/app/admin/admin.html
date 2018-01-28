@@ -1,1 +1,31 @@
-<div class="content_space"></div>
+<br><br>
+<div class="content_space" ng-controller="AdminController">
+  <h1>Admin page</h1>
+  <br><br>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <strong>User Management</strong>
+    </div>
+    <table class="table">
+      <tr>
+        <th>Name</th>
+        <th>College</th>
+        <th>Email</th>
+      </tr>
+      <tr ng-repeat="user in users ">
+        <td>{{user.name}}</td>
+        <td>{{user.college}}</td>
+        <td>{{user.email}}</td>
+        <td>
+          <a href="#">
+            <button type="button" class="btn btn-primary">Edit</button>
+          </a>
+          <a href="#">
+            <button type="button" class="btn btn-danger">Delete</button>
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</div>

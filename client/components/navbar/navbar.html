@@ -1,6 +1,6 @@
 <div class="navbar-fixed animated slideInDown" style="position: fixed;width: 100%;" ng-controller="NavbarController">
   <nav>
-    <div class="nav-wrapper blue darken-4" style="text-align: center;">
+    <div class="nav-wrapper black darken-4" style="text-align: center;">
       <ul class="left">
         <li><a data-activates="slide-out" class="button-collapse" style="margin: 0;"><i class="material-icons">menu</i></a></li>
       </ul>
@@ -16,9 +16,10 @@
   <li><div class="divider"></div></li>
   <li ui-sref-active="active" ng-hide="nav.isLoggedIn()"><a class="waves-effect main_nav_button" ui-sref="login">Login</a></li>
   <li ui-sref-active="active" ng-hide="nav.isLoggedIn()"><a class="waves-effect main_nav_button" ui-sref="signup">Register</a></li>
-  <li ui-sref-active="active" ng-show="nav.isLoggedIn()&&!nav.isAdmin()"><a class="waves-effect main_nav_button" ui-sref="dashboard">Dashboard</a></li>
-  <li ui-sref-active="active" ng-show="nav.isLoggedIn()&&nav.isAdmin()"><a class="waves-effect main_nav_button" ui-sref="admin">Dashboard</a></li>
+  <li ui-sref-active="active" ng-show="nav.isLoggedIn()&& !nav.isAdmin()"><a class="waves-effect main_nav_button" ui-sref="dashboard">Dashboard</a></li>
+  <li ui-sref-active="active" ng-show="nav.isLoggedIn()&& nav.isAdmin()"><a class="waves-effect main_nav_button" ui-sref="admin">Admin Dashboard</a></li>
   <li ui-sref-active="active" ng-show="nav.isLoggedIn()"><a class="waves-effect main_nav_button" ui-sref="logout">Logout</a></li>
+
   <li><div class="divider"></div></li>
   <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="main">Home</a></li>
   <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="schedule">Schedule</a></li>
