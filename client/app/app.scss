@@ -6,7 +6,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 /**
  * App-wide Styles
  */
- 
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -19,12 +19,12 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 }
 
 .content_space {
-	margin-left: 200px;
+	// margin-left: 200px;
   text-align: center;
-  padding: 30px 70px;
+  // padding: 30px 70px;
 }
 .home_space {
-  margin-left: 200px;
+  // margin-left: 200px;
   text-align: center;
   padding: 20px;
 }
@@ -66,7 +66,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
   padding: 10px;
   border-radius: 0px;
   cursor: pointer;
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
 .whitebg {
@@ -84,11 +84,22 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
     max-width: 730px;
   }
 }
-
+.ngcard{
+  width:50vw;
+  margin-left:25vw;
+  border-radius:15px;
+}
+@media screen and (max-width: 769px){
+  .ngcard{
+    width:100vw;
+    margin-left:0vw;
+    border-radius:15px;
+  }
+}
 @media screen and (max-width: 992px) {
   .content_space {
     margin-left: 0;
-    padding: 10px 20px;
+    // padding: 10px 20px;
   }
   .home_space {
     margin-left: 0;
@@ -98,7 +109,8 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
     margin-left: 0 !important;
   }
   .nav_title {
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 100;
   }
 }
 

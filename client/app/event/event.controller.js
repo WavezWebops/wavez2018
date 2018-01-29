@@ -92,7 +92,7 @@ class EventComponent {
         }]
     }, {
         'name': 'Splash',
-        'writeup': 'Just SPLASH the colours onto paper, let creativity curls the brush not to trash think instantly out of the box,with out any loss transfer your thoughts through your hearts glorify given theme with your team so, this is where you can intensify your day dream colours,WAVEZ 2017 OPEN YOUR IDEAS,HIDE THE MEDIAS!',
+        'writeup': 'Just SPLASH the colours onto paper, let creativity curls the brush not to trash think instantly out of the box,with out any loss transfer your thoughts through your hearts glorify given theme with your team so, this is where you can intensify your day dream colours,WAVEZ 2018 OPEN YOUR IDEAS,HIDE THE MEDIAS!',
         'rules': ['Team must have at least 2 members', 'Time limit 2 hrs', 'No reference is allowed', 'Strict adherence to theme', 'No extra time', 'Materials will be provided and no outside material is allowed ', 'judgement will be decided by CORES', 'Theme will be announced on the day of this event.', 'Registrations open.'],
         'prize': 'Prize pool 2.5k',
         'contacts': [{
@@ -132,7 +132,7 @@ class EventComponent {
         }]
     }, {
         'name': 'ProjectX',
-        'writeup': '\'You cannot discover new oceans if you dont have the courage to lose sight of the shore.\'Yes, we are back with projectx-Wavez 2k17. A new problem statement which is goin to tackle your innovative and creative side. Unleash yourself and be there to experience the fun. Only prerequisite required is \'ENTHU\'. The prize is indeed worth putting a fight for. Don\'t miss out on this one.',
+        'writeup': '\'You cannot discover new oceans if you dont have the courage to lose sight of the shore.\'Yes, we are back with projectx-Wavez 2k18. A new problem statement which is goin to tackle your innovative and creative side. Unleash yourself and be there to experience the fun. Only prerequisite required is \'ENTHU\'. The prize is indeed worth putting a fight for. Don\'t miss out on this one.',
         'rules': ['Registrations open.'],
         'prize': 'Prize pool 2.5k',
         'contacts': [{

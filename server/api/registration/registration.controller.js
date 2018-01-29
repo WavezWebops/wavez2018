@@ -67,7 +67,7 @@ function handleError(res, statusCode) {
 export function index(req, res) {
   return Registration.find().exec()
     .then(respondWithResult(res))
-    .catch(handleError("Yo"));
+    .catch(handleError(res));
 }
 
 // Gets a single Registration from the DB
