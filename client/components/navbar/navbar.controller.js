@@ -15,38 +15,49 @@ class NavbarController {
     	'image': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_30/v1487735025/Wavez2017/doe.png',
     	'url': 'http://www.doe.iitm.ac.in/'
     }];
-    this.events = [{
-    	'name': 'RoboOceana'
-    }, {
-    	'name': 'R C Boats'
-    }, {
-    	'name': 'AWC'
-    }, {
-    	'name': 'Treasure Hunt'
-    }, {
+    this.events = [
+      {
+    	'name': 'RoboRevolution'
+    },
+  //   {
+  //   'name': 'RoboOceana'
+  // }, {
+  //   	'name': 'R C Boats'
+  //   }, {
+  //   	'name': 'AWC'
+  //   }, {
+  //   	'name': 'Treasure Hunt'
+  //   },
+  {
     	'name': 'Kryptx'
-    }, {
-    	'name': 'Free Style Solo'
-    }, {
-    	'name': 'Wavez Quiz'
-    }, {
-        'name': 'Splash'
-    }, {
-        'name': 'Daily Events'
-    }, {
-        'name': 'Game Drome'
-    }, {
-        'name': 'Open House'
-    }, {
-        'name': 'ProjectX'
-    }, {
+    },
+    // {
+    // 	'name': 'Free Style Solo'
+    // }, {
+    // 	'name': 'Wavez Quiz'
+    // }, {
+    //     'name': 'Splash'
+    // }, {
+    //     'name': 'Daily Events'
+    // }, {
+    //     'name': 'Game Drome'
+    // }, {
+    //     'name': 'Open House'
+    // }, {
+    //     'name': 'ProjectX'
+    // },
+    {
         'name': 'OTD'
     }];
     this.workshops = [{
-        'name': 'Star CCM+'
-    }, {
-        'name': 'RoboOceana'
-    }];
+        'name': 'RoboRevolution'
+    },
+    // {
+    //     'name': 'Star CCM+'
+    // }, {
+    //     'name': 'RoboOceana'
+    // }
+  ];
   }
 
 }

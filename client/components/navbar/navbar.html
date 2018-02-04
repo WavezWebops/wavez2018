@@ -87,8 +87,8 @@
     <li>
       <ul>
       <li ui-sref-active="active"><a class=" aa" ui-sref="main" >Home</a></li>
-      <li ui-sref-active="active"><a class="aa" ui-sref="schedule" >Schedule</a></li>
-      <li ui-sref-active="active"><a class="aa" ui-sref="sponsors">Sponsors</a></li>
+      <!-- <li ui-sref-active="active"><a class="aa" ui-sref="schedule" >Schedule</a></li> -->
+      <!-- <li ui-sref-active="active"><a class="aa" ui-sref="sponsors">Sponsors</a></li> -->
       <li ui-sref-active="active"><a class="aa" ui-sref="contact" >Contact Us</a></li>
       <li ui-sref-active="active"><a class="aa" ui-sref="about">About</a></li>
     </ul>
@@ -101,33 +101,15 @@
     </ul> -->
     <!-- </li> -->
     <li><a ui-sref="events">Events</a>
-    <!-- <ul>
-      <li><a href="https://www.google.hr/">Web Design</a></li>
-      <li><a href="#">Development</a></li>
-      <li><a href="#">Apps</a></li>
-      <li><a href="#">Graphic design</a></li>
-      <li><a href="#">Branding</a></li>
-      <li><a href="#">Branding</a></li>
 
-
-    </ul> -->
     <ul>
       <li ui-sref-active="active" ng-repeat="e in nav.events"><a class="sub_nav_button" ui-sref="event({id: $index})">{{e.name}}</a></li>
     </ul>
     </li>
-    <li><a href="#">Work</a>
-    <ul>
-      <li><a href="#">Web</a></li>
-      <li><a href="#">Graphic</a></li>
-      <li><a href="#">Apps</a></li>
-    </ul>
-    </li>
-    <li><a href="#">Workk</a>
-    <ul>
-      <li><a href="#">Web</a></li>
-      <li><a href="#">Graphic</a></li>
-      <li><a href="#">Apps</a></li>
-    </ul>
+    <li><a ui-sref="workshops">Workshops</a>
+      <ul>
+        <li ui-sref-active="active" ng-repeat="w in nav.workshops"><a class="sub_nav_button" ui-sref="workshop({id: $index})">{{w.name}}</a></li>
+      </ul>
     </li>
   </ul>
   <div class="social">

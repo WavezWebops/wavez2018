@@ -14,6 +14,8 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
   padding: 0.2em 0;
 }
 
+
+
 .padding20 {
   padding: 20px;
 }
@@ -83,6 +85,10 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
+  .widcard{
+    width:60vw;
+    margin-left:20vw;
+  }
   .container {
     max-width: 730px;
   }
@@ -93,6 +99,10 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
   border-radius:15px;
 }
 @media screen and (max-width: 769px){
+  .widcard{
+    width:95vw;
+    margin-left:0.5vw;
+  }
   .ngcard{
     width:100vw;
     margin-left:0vw;
