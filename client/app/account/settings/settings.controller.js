@@ -76,7 +76,7 @@ class SettingsController {
     }];
     this.User = this.getCurrentUser();
     this.Init();
-    
+
   }
 
   Eregister(event) {
@@ -97,11 +97,11 @@ class SettingsController {
     this.User = this.getCurrentUser();
     for(var i=0; i<this.User.events.length; ++i) {
       for(var j=0; j<this.events.length; ++j) {
-        if(this.User.events[i]==this.events[j].id) 
+        if(this.User.events[i]==this.events[j].id)
           this.events[j].active = true;
       }
       for(var k=0; k<this.workshops.length; ++k) {
-        if(this.User.events[i]==this.workshops[k].id) 
+        if(this.User.events[i]==this.workshops[k].id)
           this.workshops[k].active = true;
       }
     }

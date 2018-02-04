@@ -8,6 +8,8 @@ var KryptxSchema = new mongoose.Schema({
   answer: String
 }, {
 	timestamps: true
+},{
+  usePushEach: true
 });
 
 export default mongoose.model('Kryptx', KryptxSchema);

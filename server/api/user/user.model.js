@@ -43,6 +43,9 @@ var UserSchema = new Schema({
   facebook: {},
   google: {},
   github: {}
+},
+{
+  usePushEach: true
 });
 
 /**
