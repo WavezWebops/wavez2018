@@ -7,21 +7,21 @@ class ContactComponent {
     this.cores = [ {
     	'name': 'Surendra',
     	'department': 'Head',
-    	'mobile': '+91 XXX XXX XXXX',
+    	'mobile': '+91 908 786 4190',
     	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1517778719/Surendra_wh8nps.jpg',
     	'mail': 'contact@wavez.org'
     }, {
     	'name': 'Vamsi',
     	'department': 'Head',
-      'mobile': '+91 XXX XXX XXXX',
-    	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1517779037/speak-no-evil-monkey_rc3db5.png',
+      'mobile': '+91 967 720 8885',
+    	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1518559624/20180208_093102_huqe9l.jpg',
     	'mail': 'contact@wavez.org'
     }, {
     	'name': 'Santosh',
     	'department': 'Sponsorships',
     	'mobile': '+91 994 011 5329',
     	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1517779037/speak-no-evil-monkey_rc3db5.png',
-    	'mail': 'contact@wavez.org'
+    	'mail': 'spons@wavez.org'
     },{
     	'name': 'Rishitha',
     	'department': 'QMS',
@@ -32,7 +32,7 @@ class ContactComponent {
         'name': 'Deepak Kumar',
         'department': 'Events',
         'mobile': '+91 917 605 0669',
-        'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1517779037/speak-no-evil-monkey_rc3db5.png',
+        'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/q_auto:eco/v1518559619/IMG_20180131_171323_Bokeh_vmjvsn.jpg',
         'mail': 'events@wavez.org'
     }, {
     	'name': 'Mudit Maheshwari',
@@ -63,7 +63,7 @@ class ContactComponent {
     {
     	'name': 'Rohith Raj',
     	'department': 'Design & Publicity',
-    	'mobile': '+91 XXX XXX XXXX',
+    	'mobile': '+91 949 085 2469',
     	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1517779037/speak-no-evil-monkey_rc3db5.png',
     	'mail': 'contact@wavez.org'
     },   {
@@ -71,7 +71,7 @@ class ContactComponent {
       	'department': 'WebOps',
       	'mobile': '+91 950 019 3273',
       	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/c_scale,f_auto,q_auto:eco,w_250/v1517778718/front_Nilay-Gautam_jk7ecb.jpg',
-      	'mail': 'contact@wavez.org'
+      	'mail': 'nilay@wavez.org'
       }
   ];
   }

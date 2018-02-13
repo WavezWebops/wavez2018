@@ -5,10 +5,12 @@ class NavbarController {
     this.isLoggedIn = Auth.isLoggedIn;
     this.isAdmin = Auth.isAdmin;
     this.getCurrentUser = Auth.getCurrentUser;
-    this.icons = [{
-    	'image': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_30/v1487735025/Wavez2017/fb.png',
-    	'url': 'https://www.facebook.com/Wavez.iitm'
-    }, {
+    this.icons = [
+    //   {
+    // 	'image': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_30/v1487735025/Wavez2017/fb.png',
+    // 	'url': 'https://www.facebook.com/Wavez.iitm'
+    // }, 
+    {
     	'image': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_30/v1487735026/Wavez2017/iitm.png',
     	'url': 'https://www.iitm.ac.in/'
     }, {

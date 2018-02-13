@@ -113,12 +113,15 @@
     </li>
   </ul>
   <div class="social">
-    <a href="http://mario-loncarek.from.hr/">
     <div class="social-icon">
+      <a href="http://mario-loncarek.from.hr/">
       <i class="fa fa-facebook"></i>
-    </div>
     </a>
-    <a href="#">
+    </div>
+    <div class="social-icon" ng-repeat="i in nav.icons">
+      <a ng-href="{{i.url}}" target="_blank"><img ng-src="{{i.image}}" width="30px" style="vertical-align:middle;"></a>
+    </div>
+    <!-- <a href="#">
     <div class="social-icon">
       <i class="fa fa-twitter"></i>
     </div>
@@ -137,10 +140,11 @@
     <div class="social-icon">
       <i class="fa fa-dribbble"></i>
     </div>
-    </a>
+    </a> -->
     <p>
-      From: Zagreb, Croatia<br>
-       Site: <a href="http://mario-loncarek.from.hr/">mario-loncarek.from.hr</a>
+      © 2018 Wavez, IIT Madras
+<br>
+       <!-- Site: <a href="http://mario-loncarek.from.hr/">mario-loncarek.from.hr</a> -->
     </p>
   </div>
 </div>
