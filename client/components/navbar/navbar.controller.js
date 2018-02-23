@@ -6,10 +6,10 @@ class NavbarController {
     this.isAdmin = Auth.isAdmin;
     this.getCurrentUser = Auth.getCurrentUser;
     this.icons = [
-    //   {
-    // 	'image': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_30/v1487735025/Wavez2017/fb.png',
-    // 	'url': 'https://www.facebook.com/Wavez.iitm'
-    // }, 
+      {
+    	'image': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_30/v1487735025/Wavez2017/fb.png',
+    	'url': 'https://www.facebook.com/Wavez.iitm'
+    },
     {
     	'image': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_30/v1487735026/Wavez2017/iitm.png',
     	'url': 'https://www.iitm.ac.in/'
@@ -23,27 +23,32 @@ class NavbarController {
     },
   //   {
   //   'name': 'RoboOceana'
-  // }, {
-  //   	'name': 'R C Boats'
-  //   }, {
+  // },
+  {
+    	'name': 'R C Boats'
+    },
+  //{
   //   	'name': 'AWC'
-  //   }, {
-  //   	'name': 'Treasure Hunt'
   //   },
+  {
+    	'name': 'Investigation Case'
+    },
   {
     	'name': 'Kryptx'
     },
     // {
     // 	'name': 'Free Style Solo'
-    // }, {
-    // 	'name': 'Wavez Quiz'
-    // }, {
-    //     'name': 'Splash'
-    // }, {
-    //     'name': 'Daily Events'
-    // }, {
-    //     'name': 'Game Drome'
-    // }, {
+    // },
+    {
+    	'name': 'Quizathon'
+    }, {
+        'name': 'Splash'
+    }, {
+        'name': 'Daily Events'
+    }, {
+        'name': 'Game Drome'
+    },
+    //{
     //     'name': 'Open House'
     // }, {
     //     'name': 'ProjectX'

@@ -19,49 +19,56 @@ class SettingsController {
     //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735143/Wavez2017/events/roboceana.png',
     //   instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
     //   active: false
-    // }, {
-    //   id: 'rcboats',
-    //   name: 'R C Boats',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735141/Wavez2017/events/rcboats.png',
-    //   instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
-    //   active: false
-    // }, {
+    // },
+    {
+      id: 'rcboats',
+      name: 'R C Boats',
+      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735141/Wavez2017/events/rcboats.png',
+      instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
+      active: false
+    },
+    //{
     //   id: 'awc',
     //   name: 'AWC',
     //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735143/Wavez2017/events/awc.png',
     //   instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
     //   active: false
-    // }, {
-    //   id: 'treasure',
-    //   name: 'Treasure Hunt',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735144/Wavez2017/events/treasure.png',
-    //   instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
-    //   active: false
-    // }, {
+    // },
+    {
+      id: 'investigation',
+      name: 'Investigation Case',
+      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735144/Wavez2017/events/treasure.png',
+      instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
+      active: false
+    },
+    //{
     //   id: 'fss',
     //   name: 'Free Style',
     //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735147/Wavez2017/events/fss.png',
     //   instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
     //   active: false
-    // }, {
-    //   id: 'quiz',
-    //   name: 'Wavez Quiz',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735141/Wavez2017/events/quiz.png',
-    //   instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
-    //   active: false
-    // }, {
-    //   id: 'splash',
-    //   name: 'Splash',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488220721/Wavez2017/events/splash.png',
-    //   instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
-    //   active: false
-    // }, {
-    //   id: 'gamedrome',
-    //   name: 'Game Drome',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488287166/Wavez2017/events/gamedrome.png',
-    //   instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
-    //   active: false
-    // }, {
+    // },
+    {
+      id: 'quiz',
+      name: 'Quizathon',
+      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735141/Wavez2017/events/quiz.png',
+      instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
+      active: false
+    },
+    {
+      id: 'splash',
+      name: 'Splash',
+      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488220721/Wavez2017/events/splash.png',
+      instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
+      active: false
+    }, {
+      id: 'gamedrome',
+      name: 'Game Drome',
+      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488287166/Wavez2017/events/gamedrome.png',
+      instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
+      active: false
+    },
+    //{
     //   id: 'projectx',
     //   name: 'ProjectX',
     //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488287166/Wavez2017/events/projectx.png',

@@ -20,7 +20,13 @@ class ContactComponent {
     	'name': 'Santosh',
     	'department': 'Sponsorships',
     	'mobile': '+91 994 011 5329',
-    	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1517779037/speak-no-evil-monkey_rc3db5.png',
+    	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1519346823/pp_wybsiv.jpg',
+    	'mail': 'spons@wavez.org'
+    },{
+    	'name': 'Yash J Yadav',
+    	'department': 'Sponsorships',
+    	'mobile': '+91 996 973 8551',
+    	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1519365311/IMG_6785_shhe8q.jpg',
     	'mail': 'spons@wavez.org'
     },{
     	'name': 'Rishitha',
@@ -44,7 +50,7 @@ class ContactComponent {
         'name': 'Vinay',
         'department': 'FR',
         'mobile': '+91 949 154 7687',
-        'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1517779037/speak-no-evil-monkey_rc3db5.png',
+        'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1518587649/IMG-20180214-WA0003_kbqt3o.jpg',
         'mail': 'contact@wavez.org'
     }, {
         'name': 'Varaprasad',
@@ -64,7 +70,7 @@ class ContactComponent {
     	'name': 'Rohith Raj',
     	'department': 'Design & Publicity',
     	'mobile': '+91 949 085 2469',
-    	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1517779037/speak-no-evil-monkey_rc3db5.png',
+    	'url': 'https://res.cloudinary.com/nilaygautam2007/image/upload/v1519364925/pp-2_cetfik.jpg',
     	'mail': 'contact@wavez.org'
     },   {
       	'name': 'Nilay Gautam',

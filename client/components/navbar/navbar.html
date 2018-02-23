@@ -103,7 +103,13 @@
     <li><a ui-sref="events">Events</a>
 
     <ul>
-      <li ui-sref-active="active" ng-repeat="e in nav.events"><a class="sub_nav_button" ui-sref="event({id: $index})">{{e.name}}</a></li>
+      <li ui-sref-active="active" ng-repeat="e in nav.events | limitTo:5"><a class="sub_nav_button" ui-sref="event({id: $index})">{{e.name}}</a></li>
+    </ul>
+    </li>
+    <li><a ui-sref="events">Events</a>
+
+    <ul>
+      <li ui-sref-active="active" ng-repeat="e in nav.events | limitTo:(5-nav.events.length)"><a class="sub_nav_button" ui-sref="event({id: ($index+5)})">{{e.name}}</a></li>
     </ul>
     </li>
     <li><a ui-sref="workshops">Workshops</a>
@@ -113,12 +119,12 @@
     </li>
   </ul>
   <div class="social">
-    <div class="social-icon">
+    <!-- <div class="social-icon">
       <a href="http://mario-loncarek.from.hr/">
       <i class="fa fa-facebook"></i>
     </a>
-    </div>
-    <div class="social-icon" ng-repeat="i in nav.icons">
+    </div> -->
+    <div class="social-icon" ng-repeat="i in nav.icons" ng-href="((i.url))">
       <a ng-href="{{i.url}}" target="_blank"><img ng-src="{{i.image}}" width="30px" style="vertical-align:middle;"></a>
     </div>
     <!-- <a href="#">
