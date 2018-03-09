@@ -8,17 +8,17 @@ class ScheduleComponent {
     	title: 'investigation case',
     	img: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_42/v1488287165/Wavez2017/events/openhouse.png',
     	time: 'Whole day1',
-    	url: '/events/11'
+    	url: '/events/1'
     }, {
     	title: 'Splash',
     	img: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_42/v1488220721/Wavez2017/events/splash.png',
     	time: '1:00 PM-2:30 PM',
-    	url: '/events/3'
+    	url: '/events/2'
     },  {
     	title: 'RC Boats',
     	img: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_42/v1487735141/Wavez2017/events/rcboats.png',
     	time: '10:00 AM-01:00 PM',
-    	url: '/events/1'
+    	url: '/events/3'
     },  {
     	title: 'Stability session',
     	img: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_42/v1488603401/Wavez2017/workshops/starccm.png',
@@ -28,14 +28,14 @@ class ScheduleComponent {
     	title: 'Quizathon',
     	img: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_42/v1487735147/Wavez2017/events/fss.png',
     	time: '3:00 PM-4:30 PM',
-    	url: '/events/2'
+    	url: '/events/4'
     }];
 
     this.day2 = [{
         title: 'Robo revolution event',
         img: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_42/v1487735143/Wavez2017/events/awc.png',
         time: '3:30PM-5:00PM',
-        url: '/events/3'
+        url: '/events/5'
     }, {
         title: 'Gamedrone',
         img: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_42/v1487735141/Wavez2017/events/quiz.png',
@@ -45,7 +45,7 @@ class ScheduleComponent {
         title: 'Web development workshop',
         img: null,
         time: '1:00PM-3:30PM',
-        url: '/workshop/2'
+        url: '/workshop/1'
     },
     {
         title:'Robo revolution workshop',
