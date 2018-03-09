@@ -41,9 +41,13 @@
 			<img src="https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_170/v1487735028/Wavez2017/prize.png" width="170px">
 		</div>
 		<div class="col s12 m12 l9 blue-grey-text text-darken-4 left_align event_caption">
+			<ul>
+				<li ng-repeat="r in eventCtrl.event.prize">
 			<p>
-				{{eventCtrl.event.prize}}
+				<span ng-bind-html="r"></span>
 			</p>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<div class="whitebg animated fadeIn card-panel widcard" ng-hide="eventCtrl.index!=3">

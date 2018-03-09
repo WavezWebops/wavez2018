@@ -10,16 +10,9 @@ class SettingsController {
       id: 'roborev',
       name: 'RoboRevolution',
       url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735143/Wavez2017/events/roboceana.png',
-      instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
+      instructions: ['Go through the rules carefully.', '<strong>All the team members must register.</strong>'],
       active: false
     },
-    // {
-    //   id: 'roboceana',
-    //   name: 'Roboceana',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735143/Wavez2017/events/roboceana.png',
-    //   instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
-    //   active: false
-    // },
     {
       id: 'rcboats',
       name: 'R C Boats',
@@ -27,13 +20,6 @@ class SettingsController {
       instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
       active: false
     },
-    //{
-    //   id: 'awc',
-    //   name: 'AWC',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735143/Wavez2017/events/awc.png',
-    //   instructions: ['Go through the rules carefully.', '<strong>Only Team leader have to register.</strong>', 'Our team will contact you upon confirmation.'],
-    //   active: false
-    // },
     {
       id: 'investigation',
       name: 'Investigation Case',
@@ -41,13 +27,6 @@ class SettingsController {
       instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
       active: false
     },
-    //{
-    //   id: 'fss',
-    //   name: 'Free Style',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1487735147/Wavez2017/events/fss.png',
-    //   instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
-    //   active: false
-    // },
     {
       id: 'quiz',
       name: 'Quizathon',
@@ -68,34 +47,21 @@ class SettingsController {
       instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
       active: false
     },
-    //{
-    //   id: 'projectx',
-    //   name: 'ProjectX',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488287166/Wavez2017/events/projectx.png',
-    //   instructions: ['Go through the rules carefully.', 'Our team will contact you upon confirmation.'],
-    //   active: false
-    // }
   ];
     this.workshops = [{
       id: 'roborevw',
       name: 'RoboRevolution',
       url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488603401/Wavez2017/workshops/starccm.png',
-      instructions: ['Our team will contact you upon confirmation.'],
+      instructions: ['Go through the rules carefully.', '<strong>All the team members must register.</strong>', 'Kit cost per team- 3200', 'Team description paper will be updated soon. Every team must fill and send back back to us on Event mail.', 'All the member must pay the registration fee.'],
       active: false
     },
-    // {
-    //   id: 'starccm',
-    //   name: 'Star CCM+',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488603401/Wavez2017/workshops/starccm.png',
-    //   instructions: ['Our team will contact you upon confirmation.', 'Registration fee &#8377;300.'],
-    //   active: false
-    // }, {
-    //   id: 'roboceanaw',
-    //   name: 'Roboceana',
-    //   url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488603401/Wavez2017/workshops/roboceana.png',
-    //   instructions: ['Our team will contact you upon confirmation.', 'Registration fee &#8377;2000 per team (Kit will be provided).', 'A team can have maximum 5 members.'],
-    //   active: false
-    // }
+    {
+      id: 'webdevw',
+      name: 'Web Development Workshop',
+      url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488603401/Wavez2017/workshops/starccm.png',
+      instructions: ['Go through the rules carefully.','Bring your laptops for the workshop', 'Registration Fee - Rs. 300'],
+      active: false
+    },
   ];
     this.User = this.getCurrentUser();
     this.Init();

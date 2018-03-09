@@ -21,24 +21,15 @@ class NavbarController {
       {
     	'name': 'RoboRevolution'
     },
-  //   {
-  //   'name': 'RoboOceana'
-  // },
   {
     	'name': 'R C Boats'
     },
-  //{
-  //   	'name': 'AWC'
-  //   },
   {
     	'name': 'Investigation Case'
     },
   {
     	'name': 'Kryptx'
     },
-    // {
-    // 	'name': 'Free Style Solo'
-    // },
     {
     	'name': 'Quizathon'
     }, {
@@ -48,22 +39,13 @@ class NavbarController {
     }, {
         'name': 'Game Drome'
     },
-    //{
-    //     'name': 'Open House'
-    // }, {
-    //     'name': 'ProjectX'
-    // },
-    {
-        'name': 'OTD'
-    }];
+    ];
     this.workshops = [{
         'name': 'RoboRevolution'
     },
-    // {
-    //     'name': 'Star CCM+'
-    // }, {
-    //     'name': 'RoboOceana'
-    // }
+    {
+        'name': 'Web Development'
+    } 
   ];
   }
 

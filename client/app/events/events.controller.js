@@ -8,18 +8,10 @@ class EventsComponent {
     	'name': 'RoboRevolution',
     	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1487735143/Wavez2017/events/roboceana.png'
     },
-    // {
-    // 	'name': 'RoboOceana',
-    // 	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1487735143/Wavez2017/events/roboceana.png'
-    // },
     {
     	'name': 'R C Boats',
     	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1487735141/Wavez2017/events/rcboats.png'
     },
-    //{
-    // 	'name': 'AWC',
-    // 	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1487735143/Wavez2017/events/awc.png'
-    // },
     {
     	'name': 'Investigation Case',
     	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1487735144/Wavez2017/events/treasure.png'
@@ -28,10 +20,6 @@ class EventsComponent {
     	'name': 'Kryptx',
     	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1487735144/Wavez2017/events/kryptx.png'
     },
-    // {
-    // 	'name': 'Free Style Solo',
-    // 	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1487735147/Wavez2017/events/fss.png'
-    // },
     {
     	'name': 'Quizathon',
     	'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1487735141/Wavez2017/events/quiz.png'
@@ -46,18 +34,8 @@ class EventsComponent {
     }, {
         'name': 'Game Drome',
         'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488287166/Wavez2017/events/gamedrome.png'
-    },
-    // {
-    //     'name': 'Open House',
-    //     'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488287165/Wavez2017/events/openhouse.png'
-    // }, {
-    //     'name': 'ProjectX',
-    //     'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488287166/Wavez2017/events/projectx.png'
-    // },
-    {
-        'name': 'OTD',
-        'url': 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_230/v1488342663/Wavez2017/events/otd.png'
-    }];
+    }
+  ];
   }
 }
 

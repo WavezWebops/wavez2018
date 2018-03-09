@@ -1,65 +1,3 @@
-<!-- <div class="navbar-fixed animated slideInDown" style="position: fixed;width: 100%;" ng-controller="NavbarController">
-  <nav>
-    <div class="nav-wrapper black darken-4" style="text-align: center;">
-      <ul class="left">
-        <li><a data-activates="slide-out" class="button-collapse" style="margin: 0;"><i class="material-icons">menu</i></a></li>
-      </ul>
-      <span class="nav_title">WAVEZ 2018</span>
-      <ul class="right">
-        <li ng-repeat="i in nav.icons"><a ng-href="{{i.url}}" target="_blank"><img ng-src="{{i.image}}" width="30px" style="vertical-align: middle;"><span style="height: 100%;"></span></a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-<ul id="slide-out" class="side-nav fixed blue darken-4">
-  <li style="margin-bottom: 73px;"><a href="/" style="padding: 0px;"><img src="https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_200/v1487735026/Wavez2017/logo1.png" width="100%"></a></li>
-  <li><div class="divider"></div></li>
-  <li ui-sref-active="active" ng-hide="nav.isLoggedIn()"><a class="waves-effect main_nav_button" ui-sref="login">Login</a></li>
-  <li ui-sref-active="active" ng-hide="nav.isLoggedIn()"><a class="waves-effect main_nav_button" ui-sref="signup">Register</a></li>
-  <li ui-sref-active="active" ng-show="nav.isLoggedIn()&& !nav.isAdmin()"><a class="waves-effect main_nav_button" ui-sref="dashboard">Dashboard</a></li>
-  <li ui-sref-active="active" ng-show="nav.isLoggedIn()&& nav.isAdmin()"><a class="waves-effect main_nav_button" ui-sref="admin">Admin Dashboard</a></li>
-  <li ui-sref-active="active" ng-show="nav.isLoggedIn()"><a class="waves-effect main_nav_button" ui-sref="logout">Logout</a></li>
-
-  <li><div class="divider"></div></li>
-  <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="main">Home</a></li>
-  <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="schedule">Schedule</a></li>
-  <li ui-sref-active="active" class="no-padding">
-    <ul class="collapsible collapsible-accordion">
-      <li ui-sref-active="active"><a class="collapsible-header waves-effect main_nav_button" ui-sref="events">Events</a>
-        <div class="collapsible-body">
-          <ul>
-            <li ui-sref-active="active" ng-repeat="e in nav.events"><a class="sub_nav_button" ui-sref="event({id: $index})">{{e.name}}</a></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </li>
-  <li ui-sref-active="active" class="no-padding">
-    <ul class="collapsible collapsible-accordion">
-      <li ui-sref-active="active"><a class="collapsible-header waves-effect main_nav_button" ui-sref="workshops">Workshops</a>
-        <div class="collapsible-body">
-          <ul>
-            <li ui-sref-active="active" ng-repeat="w in nav.workshops"><a class="sub_nav_button" ui-sref="workshop({id: $index})">{{w.name}}</a></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </li>
-  <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="sponsors">Sponsors</a></li>
-  <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="contact">Contact Us</a></li>
-  <li ui-sref-active="active"><a class="waves-effect main_nav_button" ui-sref="about">About</a></li>
-</ul>
-<script type="text/javascript">
-  $(".button-collapse").sideNav({
-    menuWidth: 200,
-    draggable: true,
-    closeOnClick: true
-  });
-  $('.collapsible').collapsible();
-</script> -->
-
-
-
 <nav class="navigate" style="position:fixed;top:0;z-index:9999999;">
   <div class="button">
     <a class="btn-open" href="#"></a>
@@ -93,23 +31,16 @@
       <li ui-sref-active="active"><a class="aa" ui-sref="about">About</a></li>
     </ul>
     </li>
-    <!-- <ul>
-      <li><a href="#">About Company</a></li>
-      <li><a href="#">Designers</a></li>
-      <li><a href="#">Developers</a></li>
-      <li><a href="#">Pets</a></li>
-    </ul> -->
-    <!-- </li> -->
     <li><a ui-sref="events">Events</a>
 
     <ul>
-      <li ui-sref-active="active" ng-repeat="e in nav.events | limitTo:5"><a class="sub_nav_button" ui-sref="event({id: $index})">{{e.name}}</a></li>
+      <li ui-sref-active="active" ng-repeat="e in nav.events | limitTo:4"><a class="sub_nav_button" ui-sref="event({id: $index})">{{e.name}}</a></li>
     </ul>
     </li>
     <li><a ui-sref="events">Events</a>
 
     <ul>
-      <li ui-sref-active="active" ng-repeat="e in nav.events | limitTo:(5-nav.events.length)"><a class="sub_nav_button" ui-sref="event({id: ($index+5)})">{{e.name}}</a></li>
+      <li ui-sref-active="active" ng-repeat="e in nav.events | limitTo:(4-nav.events.length)"><a class="sub_nav_button" ui-sref="event({id: ($index+4)})">{{e.name}}</a></li>
     </ul>
     </li>
     <li><a ui-sref="workshops">Workshops</a>
@@ -127,30 +58,10 @@
     <div class="social-icon" ng-repeat="i in nav.icons" ng-href="((i.url))">
       <a ng-href="{{i.url}}" target="_blank"><img ng-src="{{i.image}}" width="30px" style="vertical-align:middle;"></a>
     </div>
-    <!-- <a href="#">
-    <div class="social-icon">
-      <i class="fa fa-twitter"></i>
-    </div>
-    </a>
-    <a href="#">
-    <div class="social-icon">
-      <i class="fa fa-codepen"></i>
-    </div>
-    </a>
-    <a href="#">
-    <div class="social-icon">
-      <i class="fa fa-behance"></i>
-    </div>
-    </a>
-    <a href="#">
-    <div class="social-icon">
-      <i class="fa fa-dribbble"></i>
-    </div>
-    </a> -->
+
     <p>
       © 2018 Wavez, IIT Madras
 <br>
-       <!-- Site: <a href="http://mario-loncarek.from.hr/">mario-loncarek.from.hr</a> -->
     </p>
   </div>
 </div>
