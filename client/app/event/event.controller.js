@@ -25,11 +25,11 @@ class EventComponent {
     // 	'contacts': [{
     // 		'name': 'Tony Anoop',
     // 		'mobile': '+91 979 148 3921',
-    // 		'email': 'events@wavez.co.in'
+    // 		'email': 'events@wavez.org'
     // 	}, {
     //         'name': 'Bhuvan',
     //         'mobile': '+91 994 049 9788',
-    //         'email': 'events@wavez.co.in'
+    //         'email': 'events@wavez.org'
     //     }]
     // },
     {
@@ -52,7 +52,7 @@ class EventComponent {
     // 	'contacts': [{
     // 		'name': 'Tony Anoop',
     // 		'mobile': '+91 979 148 3921',
-    // 		'email': 'events@wavez.co.in'
+    // 		'email': 'events@wavez.org'
     // 	}]
     // },
     {
@@ -86,7 +86,7 @@ class EventComponent {
     // 	'contacts': [{
     // 		'name': 'Tony Anoop',
     // 		'mobile': '+91 979 148 3921',
-    // 		'email': 'events@wavez.co.in'
+    // 		'email': 'events@wavez.org'
     // 	}]
     // },
     {
@@ -108,7 +108,7 @@ class EventComponent {
     //     'contacts': [{
     //         'name': 'Tony Anoop',
     //         'mobile': '+91 979 148 3921',
-    //         'email': 'events@wavez.co.in'
+    //         'email': 'events@wavez.org'
     //     }]
     // },
     {
@@ -150,7 +150,7 @@ class EventComponent {
     //     'contacts': [{
     //         'name': 'Tony Anoop',
     //         'mobile': '+91 979 148 3921',
-    //         'email': 'events@wavez.co.in'
+    //         'email': 'events@wavez.org'
     //     }]
     // }, {
     //     'name': 'ProjectX',
@@ -160,7 +160,7 @@ class EventComponent {
     //     'contacts': [{
     //         'name': 'Tony Anoop',
     //         'mobile': '+91 979 148 3921',
-    //         'email': 'events@wavez.co.in'
+    //         'email': 'events@wavez.org'
     //     }]
     // },
     {

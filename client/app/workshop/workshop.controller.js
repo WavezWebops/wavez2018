@@ -25,7 +25,7 @@ class WorkshopComponent {
     // 	'contacts': [{
     // 		'name': 'Tony Anoop',
     // 		'mobile': '+91 979 148 3921',
-    // 		'email': 'events@wavez.co.in'
+    // 		'email': 'events@wavez.org'
     // 	}]
     // }, {
     // 	'name': 'RoboOceana',
@@ -35,7 +35,7 @@ class WorkshopComponent {
     // 	'contacts': [{
     // 		'name': 'Tony Anoop',
     // 		'mobile': '+91 979 148 3921',
-    // 		'email': 'events@wavez.co.in'
+    // 		'email': 'events@wavez.org'
     // 	}]
     // }
   ];
