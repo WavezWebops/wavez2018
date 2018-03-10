@@ -52,7 +52,7 @@ class SettingsController {
       id: 'roborevw',
       name: 'RoboRevolution',
       url: 'https://res.cloudinary.com/abinthomasonline/image/upload/c_scale,f_auto,q_auto:eco,w_40/v1488603401/Wavez2017/workshops/starccm.png',
-      instructions: ['Go through the rules carefully.', '<strong>All the team members must register.</strong>', 'Kit cost per team- 3200', 'Team description paper will be updated soon. Every team must fill and send back back to us on Event mail.', 'All the member must pay the registration fee.'],
+      instructions: ['Go through the rules carefully.', '<strong>All the team members must register.</strong>', 'Kit cost per team- 3200', 'Team description paper will be updated soon. Every team must fill and send back back to us on events@wavez.org .', 'All the member must pay the registration fee.'],
       active: false
     },
     {

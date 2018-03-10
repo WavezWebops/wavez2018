@@ -35,7 +35,7 @@ class EventComponent {
     {
     	'name': 'R C Boats',
     	'writeup': '"Work like a captain, Play like a pirate." Are u a person who thrives on the thrill that only speed and passion provides? Are you skilled enough to do built your race boat? This year WAVES 2K18 brings you a chance to satisfy your speed thirst and to feel the experience, thrill, desire and passion towards RC Boat Racing. All you need to do is just gear up with your wireless remote controlled boats and compete against the best racers. Stay afloat, stay fast and stand above all as you maneuver your RC Boat through the challenging arena. Come participate and quench your thirst for victory with the Crown of WAVES 2K18. We await for your arrival.',
-    	'rules': ['Registrations open.', 'Problem Statement Released (<a href="https://res.cloudinary.com/nilaygautam2007/image/upload/v1520529151/RC_BOAT_PS_cca5wt.pdf" target="_blank">Click Here</a>).'],
+    	'rules': ['Problem Statement Released (<a href="https://res.cloudinary.com/nilaygautam2007/image/upload/v1520529151/RC_BOAT_PS_cca5wt.pdf" target="_blank">Click Here</a>).', 'Registrations open.', 'Registration Fee: Rs 200'],
       // 'rules':['TBA'],
       'prize': ['First prize: 4k', 'Second Prize: 3k'],
       'contacts': [{
